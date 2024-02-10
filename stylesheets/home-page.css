@@ -1,0 +1,133 @@
+html{
+    font-size: 16px;
+}
+body{
+    background-size: 100vw auto;
+    margin: 0px;
+    background-color: black;
+    color: rgba(232, 128, 10, 1);
+    font-family: sans-serif;
+    font-size: 1rem;
+    padding: 0px;
+    overflow-x: scroll;
+}
+.white{
+    color: white;
+}
+#header-container{
+    height: auto;
+    background-image: linear-gradient(rgba(15, 23, 43, 0.7), rgba(15, 23, 43, 0.9)), url(../imgs/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+#sign-up-button{
+    padding: .3rem;
+    width: 6rem;
+    background-color: rgba(232, 128, 10, 1);
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+}
+#sign-up-button:hover{
+    background-color: white;
+    color: rgba(232, 128, 10, 1);
+
+}
+#middle-container{
+    padding: 5rem;
+    /* margin-top: 10rem; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+#motto-1{
+    font-size: 6rem;
+    font-weight: bold;
+}
+
+#motto{
+    padding-top: 3rem;
+    font-size: 7rem;
+    font-weight: bold;
+}
+
+#spinning-food{
+    width: 35rem; 
+    height: 35rem;
+    animation: imgRotate 50s linear infinite;
+} 
+
+@keyframes imgRotate {  
+    100% { 
+        transform: rotate(360deg); 
+    } 
+}
+
+
+
+@media(max-width:1190px){
+    #middle-container{
+        display: block;
+        text-align: center;
+    }
+}
+#about-us{
+    background-color: black;
+    color: rgba(232, 128, 10, 1);
+    padding: 4rem 15rem 4rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: list-item;
+    list-style: none;
+}
+#about-us>li{
+    padding: 1rem;
+
+}
+.left-side{
+    text-align: left;
+}
+.right-side{
+    text-align: right;
+    color: white;
+}
+footer{
+    background-color: rgba(232, 128, 10, 1);
+    height: auto;
+    display: flex;    
+    flex-wrap: wrap;    
+    justify-content: space-around;
+}
+
+footer>div{
+    padding: 2rem;
+}
+#footer-div{
+    padding: 4rem 3rem 4rem;
+}
+#footer-div a{
+    margin: 1rem;
+}
+a img{
+    width: 40px;
+}
+@media screen and (max-width: 450px){
+    #about-us{
+        padding: 3rem 5rem 3rem;
+    }
+    .right-side{
+        text-align: left;
+        color: red;
+    }
+}
+
+
+
+
+
+
+

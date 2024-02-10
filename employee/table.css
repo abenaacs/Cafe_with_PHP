@@ -1,0 +1,23 @@
+.tables{
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+table{
+}
+table caption{
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+thead td{
+    font-size:1rem;
+    max-width: 30px;
+}
+
+td{
+    overflow: hidden;
+    font-size: 1rem;
+    border: 0.1rem solid rgba(211, 143, 47, 0.4);
+}
+

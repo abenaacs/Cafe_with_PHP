@@ -1,0 +1,81 @@
+#nav-bar{
+    font-size: 1.2rem;
+    padding-right: 2rem;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+#more-nav a, #more-nav button{
+    text-decoration: none;
+    color: white;
+    margin: .5rem;
+}
+#nav-bar a:hover{
+    color:  rgb(242, 132, 7);
+}
+
+#logo-img{
+    padding: .3rem;
+    width: 3rem;
+    height: 3rem;
+}
+
+#cafe-name{
+    font-size: 3rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+
+
+#first-nav{
+    margin-right: 3rem;
+}
+#first-nav{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+}
+@media(min-width:800px){
+    #toggle-button{
+        display: none
+    }
+    #more-nav{
+        display: flex;
+        list-style: none;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .nav-ul-container{
+        margin: 0px;
+        display: flex;
+        flex-direction: row;
+    } 
+}
+@media(max-width: 800px){
+    #more-nav{
+        display: none;
+        /* background-color: rgba(9, 9, 21, 0.747);; */
+    }
+    #toggle-button{
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        top: 25px;
+        right: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    #more-nav a :hover{
+        color: rgb(242, 132, 7);
+    }
+    .line{
+        background-color: rgb(242, 132, 7);
+        height: 7px;
+        margin: 1.6px;
+        width: 100%;
+        border-radius: 10px;
+    }
+}

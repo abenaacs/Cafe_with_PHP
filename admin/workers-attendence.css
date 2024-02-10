@@ -1,0 +1,107 @@
+body{
+    size: 100%;
+    margin: 0px;
+    background-color: rgba(21, 17, 42, 0);
+    color: rgba(232, 128, 10, 1);
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    padding: 0px;
+    overflow-x: hidden;
+}
+.white{
+    color: white;
+}
+#header-container{
+    background-image: linear-gradient(rgba(15, 23, 43, 0.9), rgba(15, 23, 43, 0.9)), url(../imgs/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding-bottom: 2rem;
+}
+output{
+    height: 2rem;
+    padding: .5rem;
+    border-radius: 6px;
+    border: 0px;
+    font-size: 1.2rem;
+    margin: 1.5rem;
+} 
+
+#menu-form{
+    width: auto;
+    /* display: flex; */
+    justify-content: center;
+}
+
+.make-center{
+    display: flex;
+    justify-content: center;
+}
+.edit-menu-button{
+  
+    background-color: rgba(232, 128, 10, 0.7);    
+    border-radius: 8px;
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 3rem;
+}
+
+
+.edit-menu-button:hover{
+    color: rgba(232, 128, 10, 1);
+    background-color: white;
+}
+#confirmation-msg{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin: 0px;
+}
+.report-button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.reportLink{
+    text-decoration: none;
+    padding: 0.4rem;
+}
+
+
+
+
+.tables{
+    display: flex;
+    justify-content: center;
+}
+table{
+    /* margin: 1rem;
+    margin-top: 2rem; */
+}
+table caption{
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+thead td{
+    font-size:1rem;
+}
+td{
+    padding: .8rem;
+    font-size: 1rem;
+    border: 0.1rem solid rgba(211, 143, 47, 0.4);
+}
+#print-btn{
+    background-color: rgba(232, 128, 10, 0.7);
+    color: white;
+    margin-top: 3rem;
+    padding: 0.5rem;
+}
+@media(max-width: 400px){
+    .smaller-text {
+        font: 0.5rem;
+        display: flex;
+        flex-direction: column;
+    }
+}

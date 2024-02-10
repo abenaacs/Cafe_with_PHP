@@ -1,0 +1,72 @@
+root{
+    font-size: 16px;
+}
+
+body{
+    size: 100%;
+    margin: 0px;
+    background-color: rgba(21, 17, 42, 0);
+    color: rgba(232, 128, 10, 1);
+    font-family: sans-serif;
+    font-size: 1rem;
+    padding: 0px;
+}
+.white{
+    color: white;
+}
+#header-container{
+    height: auto;
+    background-image: linear-gradient(rgba(15, 23, 43, 0.7), rgba(15, 23, 43, 0.9)), url(../imgs/background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+#selling-title{
+    font-size: 1.rem;
+    display: flex;
+    justify-content: center;
+}
+
+/* table{
+    margin-top: 5rem;
+}
+table caption{
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+tr, td{
+    padding: .8rem;
+    font-size: 1rem;
+    border: 0.1rem solid rgba(211, 143, 47, 0.4);
+} */
+@media(max-width: 500px){
+    table{
+        max-width: 400px;
+    }
+}
+/* .tables{
+    display: flex;
+    justify-content: center;
+} */
+
+
+
+#table-container{
+    margin: 3rem 0rem 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+table{
+    border: .5px solid white;
+    width: 30rem;
+}
+td, th{
+    padding: .8rem;
+    text-align: center;
+}
+#confirmation-msg{
+    margin-top:1rem;
+    text-align: center;
+}
